@@ -97,7 +97,7 @@ lg.Text = "legendadmin"
 lg.TextColor3 = Color3.fromRGB(0, 0, 0)
 lg.TextSize = 14.000
 lg.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet(('https://raw.githubusercontent.com/selecteduseromg343/legendaryadmin43/main/README.md?token=GHSAT0AAAAAABV6TU2QFPC4LT4FK5BEYQE2YVWVQMQ'),true))()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/selecteduseromg343/lgggggggggggggggggg/main/onlyyyyyyyyyyyyyyyy.md'),true))()
 end)
 
 aimbot.Name = "aimbot"
