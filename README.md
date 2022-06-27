@@ -84,7 +84,7 @@ pb.Text = "prisonkills"
 pb.TextColor3 = Color3.fromRGB(0, 0, 0)
 pb.TextSize = 14.000
 pb.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet(('https://raw.githubusercontent.com/selecteduseromg343/prisonbreakerv.1.4/main/README.md?token=GHSAT0AAAAAABV6TU2RNDHBHCSS3LKRGSGCYVWX6JQ'),true))()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/selecteduseromg343/pricccccccccccccccceeeeeeeeeeeee5/main/README.md'),true))()
 end)
 
 lg.Name = "lg"
